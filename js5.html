@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	function GetMembers(){
+		return['aa', 'bbb', 'ccc'];
+	}
+/*
+	var members = GetMembers();
+	document.write(members[1]);
+*/
+var members = GetMembers();
+for (var i = 0; i < members.length; i++ ) {
+	document.write(members[i].toUpperCase());
+	document.write('<br />')
+}
+
+</script>
+</body>
+</html>
